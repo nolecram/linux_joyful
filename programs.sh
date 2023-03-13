@@ -28,3 +28,7 @@ xeyes
 espeak
 # Create a fake identity
 rig
+# It reverses every string given to it
+rev
+# Output all the possible factors of a given number
+factor
