@@ -11,14 +11,21 @@ LinuxJoyful is a collection of humorous commands and applications for Linux. The
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Installation](#installation)
 
 ## Introduction
 
 LinuxJoyful aims to blend the power of Linux with a touch of humor. Whether you're a seasoned sysadmin or a curious newbie, these commands are sure to amuse and entertain.
+
+## Contributing
+
+We welcome contributions! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
+
+## License
+
+This project is licensed under the terms of the [LICENSE](LICENSE) file.
 
 ## Installation
 
