@@ -19,18 +19,23 @@ We welcome contributions to LinuxJoyful! By contributing, you help make this pro
 
 4. **Make your changes**: Make your changes to the codebase.
 
-5. **Commit your changes**: Commit your changes with a descriptive commit message.
+5. **Test your changes**: Run the interactive script to ensure your changes work as expected.
+    ```bash
+    bash programs.sh
+    ```
+
+6. **Commit your changes**: Commit your changes with a descriptive commit message.
     ```bash
     git add .
     git commit -m "Add new feature"
     ```
 
-6. **Push your changes**: Push your changes to your forked repository.
+7. **Push your changes**: Push your changes to your forked repository.
     ```bash
     git push origin my-new-feature
     ```
 
-7. **Create a pull request**: Go to the original repository and create a pull request from your forked repository.
+8. **Create a pull request**: Go to the original repository and create a pull request from your forked repository.
 
 ## Code of Conduct
 

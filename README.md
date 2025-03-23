@@ -14,6 +14,7 @@ LinuxJoyful is a collection of humorous commands and applications for Linux. The
 - [Contributing](#contributing)
 - [License](#license)
 - [Installation](#installation)
+- [Usage](#usage)
 
 ## Introduction
 
@@ -34,3 +35,14 @@ To get started with LinuxJoyful, clone the repository to your local machine:
 ```bash
 git clone https://github.com/nolecram/LinuxJoyful.git
 cd LinuxJoyful
+```
+
+## Usage
+
+Run the interactive script to explore the fun commands:
+
+```bash
+bash programs.sh
+```
+
+Follow the on-screen menu to select and execute various fun Linux commands. Enjoy the experience!
