@@ -1,48 +1,139 @@
-# LinuxJoyful
+# LinuxJoyful 🎉
 
-## Welcome to LinuxJoyful!
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-LinuxJoyful is a collection of humorous commands and applications for Linux. These playful tools are designed to bring a smile to your face while you explore the command line. Give them a try whenever you need a dose of fun!
+A collection of humorous commands and entertaining animations for Linux and macOS. These playful tools bring a smile to your face while exploring the command line. Give them a try whenever you need a dose of fun!
 
 <p align="center">
-  <img src="https://github.com/nolecram/LinuxJoyful/blob/main/linuxjoy.jpeg" alt="LinuxJoyful Logo" />
+  <img src="linuxjoy.jpeg" alt="LinuxJoyful Logo" width="300" />
 </p>
 
-## Table of Contents
+## 📋 Table of Contents
 
-- [Introduction](#introduction)
-- [Contributing](#contributing)
-- [License](#license)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Available Commands](#-available-commands)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Documentation](#-documentation)
 
-## Introduction
+## ✨ Features
 
-LinuxJoyful aims to blend the power of Linux with a touch of humor. Whether you're a seasoned sysadmin or a curious newbie, these commands are sure to amuse and entertain.
+- **Interactive Menu**: User-friendly menu system for selecting commands
+- **16 Fun Commands**: Visual animations, text effects, and utilities
+- **Cross-Platform**: Works on Linux and macOS
+- **Easy to Extend**: Simple structure to add new commands
+- **No Heavy Dependencies**: Lightweight and modular design
+- **Open Source**: Apache 2.0 Licensed - free to use and modify
 
-## Contributing
+## 🚀 Quick Start
 
-We welcome contributions! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
+```bash
+# Clone the repository
+git clone https://github.com/nolecram/LinuxJoyful.git
+cd LinuxJoyful
 
-## License
+# Run the script
+bash programs.sh
 
-This project is licensed under the terms of the [LICENSE](LICENSE) file.
+# Or with make
+make install
+make run
+```
 
-## Installation
+## 📦 Installation
 
-To get started with LinuxJoyful, clone the repository to your local machine:
+### Prerequisites
+- Bash 4.0+
+- Linux, macOS, or WSL on Windows
 
+### Option 1: Clone and Run (Recommended)
 ```bash
 git clone https://github.com/nolecram/LinuxJoyful.git
 cd LinuxJoyful
+bash programs.sh
 ```
 
-## Usage
+### Option 2: Using Makefile
+```bash
+git clone https://github.com/nolecram/LinuxJoyful.git
+cd LinuxJoyful
+make install
+make run
+```
 
-Run the interactive script to explore the fun commands:
+### Optional: Install Dependencies
+Some commands require additional tools. See [Installation Guide](docs/INSTALLATION.md) for system-specific instructions.
 
+**Quick install (Ubuntu/Debian):**
+```bash
+sudo apt-get install sl aafire fortune lolcat figlet cowsay asciiquarium cmatrix x11-apps espeak
+```
+
+## 🎮 Usage
+
+Simply run the script:
 ```bash
 bash programs.sh
 ```
 
-Follow the on-screen menu to select and execute various fun Linux commands. Enjoy the experience!
+A menu will display 16 different commands to choose from. Select a number (1-16) or type 0 to exit.
+
+## 🎨 Available Commands
+
+| # | Command | Description |
+|---|---------|-------------|
+| 1 | `sl` | Steam locomotive animation |
+| 2 | `aafire` | Fire animation effect |
+| 3 | `yes` | Infinite string repetition |
+| 4 | `fortune` | Random sayings & quotes |
+| 5 | `lolcat` | Rainbow colored text |
+| 6 | `figlet` | Large ASCII art text |
+| 7 | `banner` | Simple banner text |
+| 8 | `oneko` | Mouse-following cat |
+| 9 | `cowsay` | ASCII cow speaking |
+| 10 | `asciiquarium` | ASCII aquarium animation |
+| 11 | `cmatrix` | Matrix rain effect |
+| 12 | `xeyes` | Eyes following mouse |
+| 13 | `espeak` | Text-to-speech |
+| 14 | `rig` | Generate fake identities |
+| 15 | `rev` | Reverse text |
+| 16 | `factor` | Integer factorization |
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to:
+- Report issues
+- Suggest features
+- Submit pull requests
+- Follow our code of conduct
+
+## 📚 Documentation
+
+- [Installation Guide](docs/INSTALLATION.md) - Detailed setup instructions for all systems
+- [Architecture](docs/ARCHITECTURE.md) - Project structure and how to extend it
+- [FAQ](docs/FAQ.md) - Frequently asked questions
+- [Contributing Guide](CONTRIBUTING.md) - How to contribute to the project
+- [Code of Conduct](CODE_OF_CONDUCT.md) - Community standards
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+## ⚠️ Troubleshooting
+
+**"Command not found" error?**
+→ See [Installation Guide](docs/INSTALLATION.md) to install missing tools
+
+**Script freezes?**
+→ Press `Ctrl+C` to exit animations and return to menu
+
+**Need help?**
+→ Check [FAQ](docs/FAQ.md) or create an [issue](https://github.com/nolecram/LinuxJoyful/issues)
+
+---
+
+Made with ❤️ for the Linux community. Enjoy!
